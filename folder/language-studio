@@ -1,0 +1,208 @@
+{
+    "documents": [
+        {
+            "id": "id__2014",
+            "sentiment": "mixed",
+            "confidenceScores": {
+                "positive": 0.38,
+                "neutral": 0.13,
+                "negative": 0.49
+            },
+            "sentences": [
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.01,
+                        "neutral": 0.99,
+                        "negative": 0
+                    },
+                    "offset": 0,
+                    "length": 7,
+                    "text": "Hello,\n",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.05,
+                        "neutral": 0.95,
+                        "negative": 0
+                    },
+                    "offset": 7,
+                    "length": 114,
+                    "text": "        My name is Mateo Gomez and I visited Contoso Restaurant with my spouse for our anniversary last Thursday. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.85,
+                        "neutral": 0.15,
+                        "negative": 0
+                    },
+                    "offset": 121,
+                    "length": 146,
+                    "text": "I had heard wonderful things about your food and service from my neighbors as I lived right down the street from you at 1234 Hollywood Boulevard. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "positive",
+                    "confidenceScores": {
+                        "positive": 0.67,
+                        "neutral": 0.33,
+                        "negative": 0
+                    },
+                    "offset": 267,
+                    "length": 91,
+                    "text": "After a lovely stroll along the Santa Monica Pier, we decided to go for dinner at Contoso. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.03,
+                        "negative": 0.97
+                    },
+                    "offset": 358,
+                    "length": 98,
+                    "text": "But when we got to the restaurant, we had to wait for 15 minutes just to get on the waiting list. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0.99,
+                        "negative": 0.01
+                    },
+                    "offset": 456,
+                    "length": 79,
+                    "text": "After an hour of waiting to get seated, we ordered two Surf and turf platters. ",
+                    "targets": [],
+                    "assessments": []
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.12,
+                        "neutral": 0.61,
+                        "negative": 0.27
+                    },
+                    "offset": 535,
+                    "length": 58,
+                    "text": "To our absolute surprise, the food was very cold and dry. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.3,
+                                "negative": 0.7
+                            },
+                            "offset": 566,
+                            "length": 4,
+                            "text": "food",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/0"
+                                },
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/6/assessments/1"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "positive",
+                            "confidenceScores": {
+                                "positive": 0.52,
+                                "negative": 0.48
+                            },
+                            "offset": 580,
+                            "length": 4,
+                            "text": "cold",
+                            "isNegated": false
+                        },
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.08,
+                                "negative": 0.92
+                            },
+                            "offset": 589,
+                            "length": 3,
+                            "text": "dry",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "negative",
+                    "confidenceScores": {
+                        "positive": 0,
+                        "neutral": 0,
+                        "negative": 1
+                    },
+                    "offset": 593,
+                    "length": 101,
+                    "text": "The whole experience was just awful, and I expect a refund for our meal and an apology for that day. ",
+                    "targets": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 604,
+                            "length": 10,
+                            "text": "experience",
+                            "relations": [
+                                {
+                                    "relationType": "assessment",
+                                    "ref": "#/documents/0/sentences/7/assessments/0"
+                                }
+                            ]
+                        }
+                    ],
+                    "assessments": [
+                        {
+                            "sentiment": "negative",
+                            "confidenceScores": {
+                                "positive": 0.01,
+                                "negative": 0.99
+                            },
+                            "offset": 624,
+                            "length": 5,
+                            "text": "awful",
+                            "isNegated": false
+                        }
+                    ]
+                },
+                {
+                    "sentiment": "neutral",
+                    "confidenceScores": {
+                        "positive": 0.02,
+                        "neutral": 0.92,
+                        "negative": 0.06
+                    },
+                    "offset": 694,
+                    "length": 95,
+                    "text": "Please issue me a refund at the earliest and call me on 123-456-7890 for any further questions.",
+                    "targets": [],
+                    "assessments": []
+                }
+            ],
+            "warnings": []
+        }
+    ],
+    "errors": [],
+    "modelVersion": "2024-03-01"
+}
